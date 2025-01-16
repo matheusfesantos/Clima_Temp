@@ -31,9 +31,11 @@ function weatherInformation5Days({ weather5days }){
 
                 {nextFiveDays.map(forecast => (
                     <div key={forecast.dt} className='weather-iten'>
+
                         <p className='forecast'>{convertDate(forecast)}</p>
-                        <img src=
-                                 {`http://openweathermap.org/img/w/${forecast.weather[0].icon}.png`}/>
+
+                        <img src={`http://openweathermap.org/img/w/
+                                 ${forecast.weather[0].icon}.png`}/>
 
                         <p>{forecast.weather[0].description}</p>
 
