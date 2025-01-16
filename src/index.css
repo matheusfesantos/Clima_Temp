@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto Light", sans-serif;
+  background-image: url('./assets/img.png');
+  background-attachment: fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+  height: 100vh;
+}
