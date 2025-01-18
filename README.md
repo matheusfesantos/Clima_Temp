@@ -40,10 +40,14 @@ Clima_Temp/
 │   │   └── imgs/
 │   │       └── screenshot.png
 │   ├── components/
-│   │   ├── WeatherInformation.js
-│   │   ├── WeatherInformation.css
-│   │   ├── WeatherInformation.jsx
-│   │   └── WeatherInformationDays.js
+│   │   ├────WeatherInformation/
+│   │   │    ├──WeatherInformation.css
+│   │   │    ├──WeatherInformation.jsx
+│   │   │
+│   │   ├────WeatherInformation
+│   │         ├── WeatherInformation.jsx
+│   │         └── WeatherInformationDays.jsx
+│   │
 │   ├── App.js
 │   ├── App.css
 │   ├── index.js
