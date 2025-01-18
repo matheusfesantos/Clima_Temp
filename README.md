@@ -2,7 +2,7 @@
 
 **Clima_Temp** é um aplicativo web desenvolvido com **React** que permite visualizar a previsão do tempo atual e para os próximos 5 dias. Ele consome dados da **Weather API** para mostrar informações como temperatura, umidade, e condições meteorológicas de qualquer cidade.
 
-![Captura de Tela do Clima_Temp](https://drive.google.com/file/d/17uCWHS8QvGi8gI8FVT06-v7UUZi6zCQc/view?usp=sharing)
+![Captura de Tela do Clima_Temp](https://drive.google.com/file/d/17uCWHS8QvGi8gI8FVT06-v7UUZi6zCQc/view?usp=drive_link;)
 
 ## Funcionalidades
 
