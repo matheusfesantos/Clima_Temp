@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Clima_Temp - Previsão do Tempo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Clima_Temp** é um aplicativo web desenvolvido com **React** que permite visualizar a previsão do tempo atual e para os próximos 5 dias. Ele consome dados da **Weather API** para mostrar informações como temperatura, umidade, e condições meteorológicas de qualquer cidade.
 
-## Available Scripts
+![Captura de Tela do Clima_Temp](public/assets/imgs/screenshot.png)
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- Exibe a previsão do tempo **de hoje** e para os **próximos 5 dias**.
+- Mostra informações detalhadas como:
+  - Temperatura atual.
+  - Umidade.
+  - Condições meteorológicas (ensolarado, nublado, etc.).
+  - Ícones representando as condições climáticas.
+- Interface moderna e responsiva, otimizada para dispositivos móveis e desktops.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **CSS**: Estilização e responsividade do layout.
+- **Weather API**: API externa para obter dados meteorológicos em tempo real.
+- **Vercel**: Plataforma para hospedagem e deployment do projeto.
 
-### `npm test`
+## Estrutura de Pastas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Abaixo está a estrutura de pastas do projeto:
 
-### `npm run build`
+```bash
+Clima_Temp/
+│
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   └── manifest.json
+│
+├── src/
+│   ├── assets/
+│   │   └── imgs/
+│   │       └── screenshot.png
+│   ├── components/
+│   │   ├── WeatherInformation.js
+│   │   ├── WeatherInformation.css
+│   │   ├── WeatherInformation.jsx
+│   │   └── WeatherInformationDays.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── reportWebVitals.js
+│
+├── .gitignore
+├── README.md
+├── package.json
+├── package-lock.json
+└── setupTests.js
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Rodar o Projeto Localmente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/matheusfesantos/Clima_Temp.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd Clima_Temp
+   ```
 
-### `npm run eject`
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   O aplicativo estará disponível em `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O projeto está hospedado e disponível online via **Vercel**. Você pode acessá-lo através do seguinte link:  
+[Clima_Temp no Vercel]([seu-link-aqui](https://clima-temp-nine.vercel.app/))
