@@ -44,7 +44,7 @@ Clima_Temp/
 │   │   │    ├──WeatherInformation.css
 │   │   │    ├──WeatherInformation.jsx
 │   │   │
-│   │   ├────WeatherInformation
+│   │   ├────WeatherInformation/
 │   │         ├── WeatherInformation.jsx
 │   │         └── WeatherInformationDays.jsx
 │   │
